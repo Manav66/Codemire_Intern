@@ -1,0 +1,185 @@
+<!Doctype HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #331343;
+  color: white;
+}
+
+.div1{
+	padding-top: 100px;
+	padding-left: 150px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family : !important ;
+}
+
+.main{
+	padding-top: 20px;
+	padding-left: 150px;
+	font-size: 20px;
+	font-family: !important;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 250px;
+  color: white;
+  background: black;
+  border-radius: 30px 0px 0px 0px;
+  border-color: #BF40BF;
+
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+}
+
+form.example button {
+  float: left;
+  width: 160px;
+  padding: 10px;
+  height: 42px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #5D3FD3 , #BF40BF);
+  border-radius: 0px 0px 30px 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+.header a.logo {
+  font-size: 30px;
+  padding-left: 150px;
+  font-weight: bold;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+}
+
+.srchbtn{
+   font-style: normal;
+}
+
+.header-right {
+  padding-left: 250px;
+  float: left;
+}
+
+.right{
+	float :right;
+	padding-right: 100px;
+}
+
+.img{
+  float: right;
+  padding-right: 150px;
+  margin: 0 0 0 15px;
+  width: 600px;
+  height: 6 00px;
+}
+
+span{
+  background-image: linear-gradient(to right, #5D3FD3 , #BF40BF);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+}
+
+.notching {
+    background: linear-gradient(135deg);
+    background-image: linear-gradient(to right, #5D3FD3 , #BF40BF);
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+
+<body>
+	<div class="header">
+  		<a href="#default" class="logo">LYNC</a>
+  		<div class="header-right">
+    		<a href="#home">Trending Assets</a>
+    		<a href="#featured">Featured</a>
+    		<a href="#Explore">Explore</a>
+    		<a href="#contact">Contact Us</a>
+  		</div>
+  		<div class="right">
+  			<a><div class="notching">Connect wallet</div></a>
+  		</div>
+  	</div>	
+    <div>
+      <img class ="img" src="C:\Users\Pancham\Desktop\MANAV\intern\char.png">
+    </div>
+
+  	<div class="div1">
+  		<a class="text">Buy and Sell</a></br>
+  		<a class="text1">Your First tangible NFT</a></br>
+  		<a class="text2">With <span>LYNC</span></a>
+  	</div>
+
+  	<div class="main">
+  		<a>Explore NFT interoperability with LYNC marketplace SDK </a>
+  	</div>
+  </br>
+    <form class="example" action="/action_page.php" style="padding-left: 150px; padding-top: 20px;">
+  <input type="text" placeholder="josh@gmail.com  " name="search2">
+  <button type="submit"><i class="srchbtn">Apply Now</i></button>   
+</form>
+
+</body>
+
+</html>
